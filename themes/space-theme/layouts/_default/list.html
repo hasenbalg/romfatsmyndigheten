@@ -1,0 +1,19 @@
+{{ define "main" }}
+<div class="hero-section">
+    {{ with .Params.hero_image }}
+        <div class="hero-image">
+            <img src="{{ . }}" alt="Hero background">
+        </div>
+    {{ end }}
+    <div class="hero-content">
+        <h1>{{ .Params.hero_title | default .Title }}</h1>
+        <p class="hero-subtitle">{{ .Params.hero_subtitle | default "" }}</p>
+    </div>
+</div>
+
+<div class="container">
+    <div class="content">
+        {{ .Content }}
+    </div>
+</div>
+{{ end }}

@@ -1,0 +1,28 @@
+<footer>
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3>Norwegian Space Agency</h3>
+            <p>Exploring the final frontier for Norway and the world.</p>
+        </div>
+        
+        <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+                {{ range .Site.Menus.main }}
+                    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                {{ end }}
+            </ul>
+        </div>
+        
+        <div class="footer-section">
+            <h4>Contact</h4>
+            <p>Oslo Space Center<br>
+            Gjerdrums vei 71<br>
+            0486 Oslo, Norway</p>
+        </div>
+    </div>
+    
+    <div class="footer-bottom">
+        <p>&copy; {{ now.Year }} Norwegian Space Agency. All rights reserved.</p>
+    </div>
+</footer>

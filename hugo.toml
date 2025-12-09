@@ -1,0 +1,44 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Norwegian Space Agency'
+theme = 'space-theme'
+
+[params]
+  description = 'Official website of the Norwegian Space Agency'
+  author = 'Norwegian Space Agency'
+  # Space theme specific settings
+  primary_color = '#1e3a8a'
+  secondary_color = '#3b82f6'
+  accent_color = '#60a5fa'
+  background_color = '#f8fafc'
+
+[menu]
+  [[menu.main]]
+    name = 'Home'
+    url = '/'
+    weight = 10
+  [[menu.main]]
+    name = 'About'
+    url = '/about'
+    weight = 20
+  [[menu.main]]
+    name = 'Missions'
+    url = '/missions'
+    weight = 30
+  [[menu.main]]
+    name = 'Research'
+    url = '/research'
+    weight = 40
+  [[menu.main]]
+    name = 'News'
+    url = '/news'
+    weight = 50
+  [[menu.main]]
+    name = 'Contact'
+    url = '/contact'
+    weight = 60
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

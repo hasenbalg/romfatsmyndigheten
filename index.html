@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Norwegian Space Agency - Hugo Site</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar" role="navigation" aria-label="Main navigation">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="/">Norwegian Space Agency</a>
+                </div>
+                
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                    <span class="hamburger"></span>
+                </button>
+                
+                <div class="nav-menu" id="navMenu">
+                    <a href="/" class="nav-link">Home</a>
+                    <a href="/about" class="nav-link">About</a>
+                    <a href="/missions" class="nav-link">Missions</a>
+                    <a href="/research" class="nav-link">Research</a>
+                    <a href="/news" class="nav-link">News</a>
+                    <a href="/contact" class="nav-link">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="hero-section">
+            <div class="hero-content">
+                <h1>Welcome to Norwegian Space Agency</h1>
+                <p class="hero-subtitle">Exploring the final frontier for Norway and the world</p>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="content">
+                <h2>Project Features</h2>
+                <p>This Hugo project includes:</p>
+                <ul>
+                    <li>Mobile-first responsive design</li>
+                    <li>Modern CSS with custom properties</li>
+                    <li>Dynamic navigation with smooth animations</li>
+                    <li>Image placeholder shortcode for square images</li>
+                    <li>Norwegian Space Agency branding</li>
+                    <li>Hugo templating system</li>
+                    <li>Clean, semantic HTML structure</li>
+                </ul>
+                
+                <h3>Image Placeholders</h3>
+                <p>Here are examples of the image placeholders:</p>
+                
+                <div class="image-placeholder large-square">
+                    <div class="placeholder-content">
+                        <svg width="100%" height="100%" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="400" height="400" fill="#E5E7EB"/>
+                            <circle cx="200" cy="200" r="80" fill="#9CA3AF"/>
+                            <rect x="100" y="120" width="200" height="160" rx="8" fill="#6B7280"/>
+                            <circle cx="200" cy="200" r="60" fill="#4B5563"/>
+                            <path d="M200 140 L240 200 L200 260 L160 200 Z" fill="#374151"/>
+                        </svg>
+                        <div class="placeholder-text">
+                            <span>Large Square Space Image</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <h3>Getting Started</h3>
+                <p>To run this Hugo project:</p>
+                <ol>
+                    <li>Install Hugo: <code>brew install hugo</code> (macOS) or download from hugo.io</li>
+                    <li>Navigate to the project directory: <code>cd norway-space-agency</code></li>
+                    <li>Start the development server: <code>hugo server</code></li>
+                    <li>Open <code>http://localhost:1313</code> in your browser</li>
+                </ol>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="footer-content">
+            <div class="container">
+                <div class="footer-section">
+                    <h3>Norwegian Space Agency</h3>
+                    <p>Exploring the final frontier for Norway and the world.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/missions">Missions</a></li>
+                        <li><a href="/research">Research</a></li>
+                        <li><a href="/news">News</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Oslo Space Center<br>
+                    Gjerdrums vei 71<br>
+                    0486 Oslo, Norway</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2024 Norwegian Space Agency. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="/js/main.js"></script>
+</body>
+</html>
