@@ -6,11 +6,8 @@ theme = 'space-theme'
 [params]
   description = 'Official website of the Norwegian Space Agency'
   author = 'Norwegian Space Agency'
-  # Space theme specific settings
-  primary_color = '#1e3a8a'
-  secondary_color = '#3b82f6'
-  accent_color = '#60a5fa'
-  background_color = '#f8fafc'
+  keywords = 'space, norway, aerospace, satellite, rocket, exploration'
+  ogImage = '/assets/og-image.jpg'
 
 [menu]
   [[menu.main]]
