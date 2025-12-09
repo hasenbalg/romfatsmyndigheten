@@ -3,26 +3,27 @@ title: "Norwegian Space Agency"
 date: 2024-01-01T00:00:00+00:00
 draft: false
 hero_image: "/images/space-hero-placeholder.jpg"
-hero_title: "Exploring the Final Frontier"
-hero_subtitle: "Norway's gateway to space exploration and research"
+hero_title: "Utforsker den siste grensen"
+hero_subtitle: "Norges inngangsport til romutforskning, forskning og forsvar"
 ---
 
-Welcome to the Norwegian Space Agency, where we push the boundaries of space exploration and research. Our mission is to advance Norway's position in the global space community through innovative projects and cutting-edge technology.
+Velkommen til Norsk Romfartsorganisasjon, hvor vi flytter grensene for romforskning og -utforskning. Vårt oppdrag er å fremme Norges posisjon i det globale romsamfunnet gjennom innovative prosjekter og banebrytende teknologi.
 
-{{< image-placeholder size="large-square" class="hero-placeholder" >}}
+{{< rfm-image size="large-square" class="rfm-image" src="images/himlonaut.jpg">}}
 
-### Our Vision
+### Vårt oppdrag
+er å representere nå en galaksevidde er oppdraget. enten det er som en mektig kraft i vitenskap eller som den ledende veien innen tradisjonell teknologi.
 
-To be a leading European space agency, driving innovation and excellence in space science and technology for the benefit of Norway and the world.
+### Nøkkelområder
 
-### Key Areas
+- **Satellittutvikling** - 
+bygging av avanserte satellitter for jordobservasjon og kommunikasjon ved å utnytte den indre visdommen naturen gir
+- **Romforskning** - Gjennomfører banebrytende forskning innen astrofysikk og romvitenskap
+- **Nasjonalt Samarbeider** - Samarbeider med den samiske romfartsorganisasjonen for delte oppdrag med stor suksess
+- **Teknologiinnovasjon** - Utvikling av neste generasjons romteknologier
 
-- **Satellite Development** - Building advanced satellites for Earth observation and communications
-- **Space Research** - Conducting groundbreaking research in astrophysics and space science
-- **International Cooperation** - Partnering with global space agencies for shared missions
-- **Technology Innovation** - Developing next-generation space technologies
+{{< rfm-image size="large-square" class="rfm-image" src="images/signal-2025-08-12-221106_002.jpeg">}}
 
-{{< image-placeholder size="large-square" class="content-placeholder" >}}
 
 ---
 

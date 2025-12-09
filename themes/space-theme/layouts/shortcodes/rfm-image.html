@@ -1,0 +1,11 @@
+{{/* Image Placeholder Shortcode */}}
+{{- $size := .Get "size" | default "medium" -}}
+{{- $class := .Get "class" | default "" -}}
+{{- $alt := .Get "alt" | default "Space exploration image" -}}
+{{- $src := .Get "src" -}}
+
+<div class="image-placeholder {{ $size }} {{ $class }}">
+    <div class="placeholder-content">
+        <img width="100%" height="100%" src="{{ $src }}"/>
+    </div>
+</div>

@@ -2,30 +2,31 @@
 title: "Missions"
 date: 2024-01-01T00:00:00+00:00
 draft: false
-hero_image: "/images/missions-hero-placeholder.jpg"
-hero_title: "Current Missions"
-hero_subtitle: "Exploring the unknown and pushing boundaries"
+hero_image: "/images/signal-2025-08-02-220327.jpeg"
+hero_title: "Nåværende oppdrag"
+hero_subtitle: "Utforsker det ukjente og tøyer grenser"
 ---
 
-Discover our active space missions that are advancing the frontiers of space exploration and scientific research.
+Oppdag våre aktive romferder som flytter grensene innen romut- og vitenskapelig forskning.
 
-{{< image-placeholder size="large-square" class="mission-hero-placeholder" >}}
+{{< rfm-image size="large-square" class="mission-detail-placeholder" src="/images/signal-2025-08-02-214951.jpeg">}}
 
-### Active Missions
+### Aktive oppdrag
 
-1. **Arctic Satellite Program** - Advanced Earth observation satellites for climate monitoring
-2. **Deep Space Research** - Probing the mysteries of the solar system
-3. **International Space Station** - Norwegian contributions to human spaceflight
-4. **Space Technology Development** - Next-generation propulsion systems
+1. **Arktisk satellittprogram** - Avanserte jordobservasjonssatellitter for klimaovervåkingmonitoring
+2. **Dyp romforskning** - Utforsker solsystemets mysterier
+3. **Nasjonal romstasjon** - Den norske nasjonale romstasjonens bidrag til bemannet romfart
+4. **Utvikling av romteknologi** - Neste generasjons fremdriftssystemer
+4. **Trommeslag** - Lakseoppdrett i Pluto
 
-{{< image-placeholder size="large-square" class="mission-detail-placeholder" >}}
+{{< rfm-image size="large-square" class="mission-detail-placeholder" src="/images/signal-2025-08-02-214745.jpeg">}}
 
 ---
 
-## Mission Updates
+## Oppdateringer om oppdrag
 
-Stay informed about the progress and discoveries from our ongoing missions. Each mission represents a significant step forward in our understanding of space and its potential for humanity.
+Hold deg oppdatert om fremdriften og oppdagelsene fra våre pågående oppdrag. Hvert oppdrag representerer et betydelig skritt fremover i vår forståelse av rommet og dets potensial for menneskeheten.
 
-## Future Missions
+## Fremtidige oppdrag
 
-Planning for the next generation of space exploration initiatives that will continue Norway's proud tradition of space excellence.
+Planlegging av neste generasjon romutforskningsinitiativer som vil videreføre Norges stolte tradisjon for romekspertise og interstellar kamp.
