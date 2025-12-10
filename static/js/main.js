@@ -28,6 +28,63 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
+// Language Selector Toggle
+document.addEventListener('DOMContentLoaded', function() {
+    const langToggle = document.getElementById('langToggle');
+    
+    if (langToggle) {
+        // Set initial button text based on current language
+        updateLangToggleText(langToggle);
+        
+        langToggle.addEventListener('click', function() {
+            const currentLang = document.documentElement.lang;
+            const newLang = currentLang === 'nn' ? 'nb' : 'nn';
+            
+            // Update language
+            document.documentElement.lang = newLang;
+            
+            // Update button text
+            updateLangToggleText(langToggle);
+            
+            // Update language meta tag
+            const langMeta = document.querySelector('meta[http-equiv="Content-Language"]');
+            if (langMeta) {
+                langMeta.content = newLang;
+            }
+            
+            // Update og:locale meta tag
+            const ogLocale = document.querySelector('meta[property="og:locale"]');
+            if (ogLocale) {
+                ogLocale.content = newLang + '_' + newLang.toUpperCase();
+            }
+            
+            // Build the new URL with the correct language prefix
+            const currentPath = window.location.pathname;
+            const currentHash = window.location.hash;
+            
+            // Remove any existing language prefix and add the new one
+            let newPath;
+            if (currentPath.startsWith('/nn/') || currentPath.startsWith('/nb/')) {
+                // Replace existing language prefix
+                newPath = currentPath.replace(/^\/(nn|nb)\//, '/' + newLang + '/');
+            } else if (currentPath === '/' || currentPath === '/nn/' || currentPath === '/nb/') {
+                // Home page
+                newPath = '/' + newLang;
+            } else {
+                // Other pages - add language prefix
+                newPath = '/' + newLang + currentPath;
+            }
+            
+            window.location.href = newPath + currentHash;
+        });
+    }
+});
+
+function updateLangToggleText(button) {
+    const currentLang = document.documentElement.lang;
+    button.textContent = currentLang === 'nn' ? 'Bokmål' : 'Nynorsk';
+}
+
 // Smooth scrolling for anchor links
 document.addEventListener('DOMContentLoaded', function() {
     const anchorLinks = document.querySelectorAll('a[href^="#"]');
